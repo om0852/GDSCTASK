@@ -6,7 +6,6 @@ import * as Typewriter from "react-effect-typewriter";
 const Homepage = () => {
   return (
     <>
-      {/* <Header /> */}
       <div className="w-full h-[90vh] grid place-items-center">
         <div className="logof flex flex-col items-center justify-center">
           <Image src="/gdsclogo.png" alt="logo" width={100} height={100} />

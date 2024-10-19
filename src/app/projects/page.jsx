@@ -7,10 +7,11 @@ const Page = () => {
   return (
     <>
     <Header/>
-    <div className='w-full h-[90vh] grid place-items-center'>
+    <div className='w-full h-[90vh] grid flex-col justify-center'>
+        <div>
         <Title title="Our Projects" />
-
         <h1>Under construction</h1>
+        </div>
     </div>
     </>
   )

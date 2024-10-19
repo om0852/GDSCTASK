@@ -14,7 +14,7 @@ const Homepage = () => {
               Google Developer Student Clubs
             
           </Typewriter.Paragraph>
-          ;
+          
           <h1 className=" text-[18px] md:text-2xl font-semibold">
             Dy patil akurdi ,pune
           </h1>

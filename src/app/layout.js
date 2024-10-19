@@ -26,7 +26,6 @@ export default function RootLayout({ children }) {
       >
         <Script src="https://unpkg.com/flowbite@1.4.5/dist/flowbite.js"></Script>
 
-        <Header/>
         {children}
       </body>
     </html>

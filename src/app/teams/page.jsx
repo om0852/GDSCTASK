@@ -6,6 +6,8 @@ import Title from "../components/Title";
 const Page = () => {
   return (
     <div className="w-full h-[90vh] grid place-items-center">
+      <Header />
+
       <div className="w-full h-[90vh] grid place-items-center">
         <Title title="Our Teams" />
         <div className="w-full py-4 h-[auto] grid place-content-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-4">

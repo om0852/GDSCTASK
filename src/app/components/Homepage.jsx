@@ -9,7 +9,7 @@ const Homepage = () => {
       <div className="w-full h-[90vh] grid place-items-center">
         <div className="logof flex flex-col items-center justify-center">
           <Image src="/gdsclogo.png" alt="logo" width={100} height={100} />
-          <Typewriter.Paragraph className="text-xl px-4 text-center md:text-4xl font-bold">
+          <Typewriter.Paragraph typingSpeed={100} className="text-xl px-4 text-center md:text-4xl font-bold">
             
               Google Developer Student Clubs
             

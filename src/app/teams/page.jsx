@@ -1,9 +1,18 @@
-import React from "react";
+"use client"
+import React, { useEffect, useState } from "react";
 import Header from "../components/Header";
 import Card from "../components/Card";
 import Title from "../components/Title";
+import Loader from "../components/Loader";
 
 const Page = () => {
+    const [loading, setLoading] = useState(true);
+    useEffect(() => {
+      setTimeout(() => {
+        setLoading(false);
+      }, 2000);
+    }, []);
+    if (loading) return <Loader />;
   return (
     <>
       <Header />

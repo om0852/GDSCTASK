@@ -10,7 +10,6 @@ const Page = () => {
     <div className='w-full h-[90vh] grid place-items-center'>
         <Title title="Our Projects" />
 
-        {/* <CardFlee image='/projectdemo.png'/> */}
         <h1>Under construction</h1>
     </div>
     </>

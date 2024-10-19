@@ -24,6 +24,8 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <script src="https://unpkg.com/flowbite@1.4.5/dist/flowbite.js"></script>
+
         <Header/>
         {children}
       </body>
